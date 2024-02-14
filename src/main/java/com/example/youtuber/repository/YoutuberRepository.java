@@ -3,13 +3,12 @@ package com.example.youtuber.repository;
 import com.example.youtuber.entities.EntradaBlog;
 import org.springframework.stereotype.Repository;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 @Repository
-public class YoutuberRepository implements  IRepository {
+public class YoutuberRepository implements IYoutuberRepository {
 
     public Map<Integer, EntradaBlog> blogs = new HashMap<>();
 

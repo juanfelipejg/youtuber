@@ -4,7 +4,7 @@ import com.example.youtuber.entities.EntradaBlog;
 
 import java.util.List;
 
-public interface IRepository {
+public interface IYoutuberRepository {
 
     public List<EntradaBlog> getAll();
 
